@@ -1,0 +1,43 @@
+@media (min-width: 576px) {
+}
+@media (min-width: 768px) {
+}
+@media (min-width: 992px) {
+}
+@media (min-width: 1200px) {
+}
+@media (min-width: 1400px) {
+  .Polygon {
+    position: absolute;
+    top: -39px;
+    left: 34.5%;
+  }
+  .item-megamenu {
+    height: 7vh;
+  }
+}
+@media (max-width: 575.98px) {
+}
+@media (max-width: 767.98px) {
+}
+@media (max-width: 991.98px) {
+}
+@media (max-width: 1199.98px) {
+  .Polygon {
+    position: absolute;
+    top: -39px;
+    left: 28.5%;
+  }
+}
+@media only screen and (min-width: 1200px) and (max-width: 1400px) {
+  .Polygon {
+    position: absolute;
+    top: -39px;
+    left: 32%;
+  }
+}
+@media (max-width: 1399.98px) {
+  .item-megamenu {
+    height: 10vh;
+  }
+}

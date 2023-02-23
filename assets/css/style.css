@@ -23,6 +23,35 @@ body {
   color: #121212;
 }
 
+@media (min-width: 1400px) {
+  .Polygon {
+    position: absolute;
+    top: -39px;
+    left: 34.5%;
+  }
+  .item-megamenu {
+    height: 7vh;
+  }
+}
+@media (max-width: 1199.98px) {
+  .Polygon {
+    position: absolute;
+    top: -39px;
+    left: 28.5%;
+  }
+}
+@media only screen and (min-width: 1200px) and (max-width: 1400px) {
+  .Polygon {
+    position: absolute;
+    top: -39px;
+    left: 32%;
+  }
+}
+@media (max-width: 1399.98px) {
+  .item-megamenu {
+    height: 10vh;
+  }
+}
 * {
   margin: 0;
   padding: 0;
@@ -48,6 +77,35 @@ ul {
 div {
   padding-left: 0 !important;
   padding-right: 0 !important;
+  border: none !important;
+}
+
+.menu-dropdown-margin {
+  margin-right: 55px;
+}
+
+.dropdown-hover:hover > .dropdown-menu {
+  display: inline-block;
+}
+
+.dropdown-hover > .dropdown-toggle:active {
+  /*Without this, clicking will make it sticky*/
+  pointer-events: none;
+}
+
+.megamenu {
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+  border-top: 2px solid #000 !important;
+}
+
+.list-item {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 34px;
+  color: #121212;
+  opacity: 0.8;
 }
 
 /*# sourceMappingURL=style.css.map */
