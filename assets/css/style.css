@@ -1,1 +1,53 @@
+@font-face {
+  font-family: "spartan";
+  src: url("../css/font/Spartan-Regular.ttf");
+}
+body {
+  font-family: "spartan";
+}
+
+.content-ul1-upmenu {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 11px;
+  line-height: 12px;
+  color: #ffffff;
+  opacity: 0.8;
+}
+
+.nav-item {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 16px;
+  color: #121212;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+ul {
+  margin-bottom: 0;
+}
+
+.upmenu {
+  background-color: #121212;
+}
+
+.brand {
+  font-family: "Playfair Display";
+  font-size: 36px;
+  line-height: 42px;
+  color: #121212;
+  font-weight: bold;
+}
+
+div {
+  padding-left: 0 !important;
+  padding-right: 0 !important;
+}
+
 /*# sourceMappingURL=style.css.map */

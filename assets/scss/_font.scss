@@ -1,0 +1,23 @@
+@font-face {
+  font-family: "spartan";
+  src: url("../css/font/Spartan-Regular.ttf");
+}
+@import "_color";
+body {
+  font-family: "spartan";
+}
+.content-ul1-upmenu {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 11px;
+  line-height: 12px;
+  color: #ffffff;
+  opacity: 0.8;
+}
+.nav-item{
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 16px;
+    color: $dark_color;
+}
