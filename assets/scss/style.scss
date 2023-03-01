@@ -22,23 +22,40 @@ ul {
 div {
   padding-left: 0 !important;
   padding-right: 0 !important;
-  border: none !important;
 }
 .menu-dropdown-margin {
   margin-right: 55px;
 }
 .dropdown-hover:hover > .dropdown-menu {
   display: inline-block;
+  -webkit-animation: fadeIn 1s;
+  animation: fadeIn 1s;
 }
-
 .dropdown-hover > .dropdown-toggle:active {
   /*Without this, clicking will make it sticky*/
   pointer-events: none;
+}
+@-webkit-keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
 }
 .megamenu {
   border-top-left-radius: 0;
   border-top-right-radius: 0;
   border-top: 2px solid #000 !important;
+  border: none;
 }
 .list-item {
   font-style: normal;
@@ -46,6 +63,174 @@ div {
   font-size: 13px;
   line-height: 34px;
   color: $dark_color;
-
   opacity: 0.8;
+}
+.title {
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 22px;
+  margin-bottom: 12px;
+}
+.card1 {
+  margin-right: 30px;
+}
+.card1 p:nth-child(2) {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 11px;
+  line-height: 18px;
+  opacity: 0.6;
+  color: $dark_color;
+  margin-top: 4px;
+}
+.card1 p:nth-child(3) {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 13px;
+  color: $dark_color;
+  margin-top: 4px;
+}
+.size-img {
+  padding-right: 30px;
+}
+.baner-center {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 289px;
+  height: 100px;
+  left: 24%;
+  border-radius: 4px;
+  background-color: #fff;
+  top: 45%;
+}
+.title-baner-center {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 13px;
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  opacity: 0.4;
+  padding-bottom: 14px;
+}
+.title2-baner-center {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 22px;
+  line-height: 25px;
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+}
+.baner-left {
+  left: 12px;
+  border-radius: 50%;
+  top: 49%;
+  background-color: #fff;
+  width: 40px;
+  height: 40px;
+}
+.baner-left svg {
+  top: 16px;
+  right: 16px;
+}
+.baner-rigth {
+  right: 12px;
+  top: 49%;
+  border-radius: 50%;
+  background-color: #fff;
+  width: 40px;
+  height: 40px;
+}
+.baner-rigth svg {
+  top: 16px;
+  right: 16px;
+}
+.main {
+  margin-top: 30px;
+}
+.main-baner {
+  margin-left: 30px;
+}
+.main-baner-title {
+  top: 37%;
+  width: 118px;
+  left: 30%;
+  height: 48px;
+  background-color: #fff;
+  border-radius: 4px;
+  text-align: center;
+  padding: 15px;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 22px;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+}
+.main-baner-title2 {
+  width: 86px;
+  height: 48px;
+  background-color: #fff;
+  border-radius: 4px;
+  text-align: center;
+  padding: 15px;
+  top: 39%;
+  left: 35%;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 22px;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+}
+.main-baner-title3 {
+  top: 41%;
+  left: 36%;
+  width: 166px;
+  height: 48px;
+  background-color: #fff;
+  border-radius: 4px;
+  text-align: center;
+  padding: 15px;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 22px;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+}
+.main-menu-footer-title h5 {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 13px;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  margin-bottom: 4px;
+  margin-top: 32px;
+}
+.main-menu-footer-title p {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 22px;
+}
+.main-menu-footer svg{
+  margin-top: 38.33px;
+}
+.main-menu-footer2 svg{
+  margin-top: 36.66px;
+}
+.main-menu-footer3 svg{
+  margin-top: 35px;
 }

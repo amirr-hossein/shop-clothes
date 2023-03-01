@@ -13,7 +13,25 @@
     left: 34.5%;
   }
   .item-megamenu {
-    height: 7vh;
+    height: 50px;
+  }
+  .card-list {
+    margin-right: -70px;
+    width: 340px;
+  }
+  .size {
+    width: 539px;
+  }
+  .main-baner div div img {
+    width: 300px;
+  }
+  .main-baner-img {
+    margin-left: 30px;
+    height: 323px;
+    width: 634px;
+  }
+  .main-img {
+    width: 650px;
   }
 }
 @media (max-width: 575.98px) {
@@ -38,6 +56,21 @@
 }
 @media (max-width: 1399.98px) {
   .item-megamenu {
-    height: 10vh;
+    height: 7vh;
+  }
+  .card-list {
+    margin-right: -70px;
+    width: 44vh;
+  }
+  .size {
+    width: 85vh;
+  }
+  .main-img {
+    width: 563px;
+  }
+  .main-baner-img {
+    margin-left: 30px;
+    height: 281px;
+    width: 540px;
   }
 }
