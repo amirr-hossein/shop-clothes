@@ -14,10 +14,113 @@ body {
   color: #ffffff;
   opacity: 0.8;
 }
-.nav-item{
-    font-style: normal;
-    font-weight: 600;
-    font-size: 14px;
-    line-height: 16px;
-    color: $dark_color;
+.nav-item {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 16px;
+  color: $dark_color;
+}
+.list-item {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 34px;
+  color: $dark_color;
+  opacity: 0.8;
+}
+.title {
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 22px;
+  margin-bottom: 12px;
+}
+.card1 p:nth-child(2) {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 11px;
+  line-height: 18px;
+  opacity: 0.6;
+  color: $dark_color;
+  margin-top: 4px;
+}
+.card1 p:nth-child(3) {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 13px;
+  color: $dark_color;
+  margin-top: 4px;
+}
+.title-baner-center {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 13px;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  opacity: 0.4;
+  padding-bottom: 14px;
+}
+.title2-baner-center {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 22px;
+  line-height: 25px;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+}
+.menu-product-box-title {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 13px;
+  text-align: right;
+  letter-spacing: 0.06em;
+  color: $dark_color;
+}
+.menu-product-box-title2 {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 13px;
+  text-align: right;
+  letter-spacing: 0.06em;
+  color: $dark_color;
+  opacity: 0.6;
+}
+.menu-product-box-titlebrand {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 22px;
+  line-height: 25px;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+}
+.product-box-title {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 16px;
+  color: $dark_color;
+  opacity: 0.6;
+}
+.product-box-price {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 16px;
+  color: $dark_color;
+}
+.product-box-price-diffrent {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 13px;
+  text-decoration-line: line-through;
+  color: $dark_color;
+  opacity: 0.4;
 }
