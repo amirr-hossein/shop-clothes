@@ -1,0 +1,50 @@
+$(document).ready(function () {
+  $(".open-shoping-bag").click(function () {
+    $(".myslider-shoping-bag").show();
+    $(".myslider-user").hide();
+    $("myslider-global").hide();
+    $(".myslider-search").hide();
+  });
+  $(".close-shoping-bag").click(function () {
+    $(".myslider-shoping-bag").hide();
+    $(".myslider-user").hide();
+    $("myslider-global").hide();
+    $(".myslider-search").hide();
+  });
+  $(".open-user").click(function(){
+    $(".myslider-user").show();
+    $("myslider-global").hide();
+    $(".myslider-search").hide();
+    $(".myslider-shoping-bag").hide();
+  })
+  $(".close-user").click(function(){
+    $(".myslider-user").hide();
+    $("myslider-global").hide();
+    $(".myslider-search").hide();
+    $(".myslider-shoping-bag").hide();
+  })
+  $(".open-global").click(function(){
+    $(".myslider-global").show();
+    $(".myslider-search").hide();
+    $(".myslider-shoping-bag").hide();
+    $(".myslider-user").hide();
+  })
+  $(".close-global").click(function(){
+    $(".myslider-global").hide();
+    $(".myslider-search").hide();
+    $(".myslider-shoping-bag").hide();
+    $(".myslider-user").hide();
+  })
+  $(".open-search").click(function(){
+    $(".myslider-search").show();
+    $(".myslider-user").hide();
+    $("myslider-global").hide();
+    $(".myslider-shoping-bag").hide();
+  })
+  $(".close-search").click(function(){
+    $(".myslider-search").hide();
+    $(".myslider-user").hide();
+    $("myslider-global").hide();
+    $(".myslider-shoping-bag").hide();
+  })
+});

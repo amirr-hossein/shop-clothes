@@ -1,15 +1,241 @@
 @media (min-width: 576px) {
+  .shopping-cart {
+    width: 388px;
+    position: fixed;
+    top: 0;
+    right: 0;
+    z-index: 999;
+    display: none;
+  }
+  .sec1-shopping-card {
+    margin-top: 12px;
+    margin-left: 24px;
+    border-bottom: 2px solid #e6e6e6;
+    width: 352px;
+  }
+  .sec2-shopping-card {
+    margin-top: 12px;
+    margin-left: 24px;
+    border-bottom: 2px solid #e6e6e6;
+    width: 352px;
+  }
+  .shop-basket-size {
+    left: 25px;
+  }
 }
 @media (min-width: 768px) {
+
 }
 @media (min-width: 992px) {
+  .button-menu{
+    display: none;
+  }
+  .baner-rigth {
+    right: 21%;
+    top: 50%;
+    border-radius: 50%;
+    background-color: #fff;
+    width: 40px;
+    height: 40px;
+  }
+  .dropdown-hover:hover > .dropdown-menu {
+    display: inline-block;
+    -webkit-animation: fadeIn 0.5s;
+    animation: fadeIn 0.5s;
+  }
+  .item-megamenu {
+    height: 7vh;
+  }
+  .all-item-menu{
+    height: 50px;
+  }
+  .soical-madia{
+    margin-top: 25px;
+  }
 }
 @media (min-width: 1200px) {
+  .image-baner{
+    margin-left: 13px;
+  }
+  .accory{
+    width: 550px;
+    height: 260px;
+  }
+  .baner-rigth {
+    right: 41px;
+    top: 47%;
+    border-radius: 50%;
+    background-color: #fff;
+    width: 40px;
+    height: 40px;
+  }
+  .main-baner-title {
+    top: 37%;
+    width: 118px;
+    left: 37%;
+    height: 48px;
+    background-color: #fff;
+    border-radius: 4px;
+    text-align: center;
+    padding: 15px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 22px;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+  }
+  .main-baner-title:hover {
+    width: 140px;
+    height: 60px;
+    top: 35%;
+    left: 34.5%;
+    padding: 21px;
+    animation: fade 1s;
+  }
+  .main-baner-title2 {
+    width: 86px;
+    height: 48px;
+    background-color: #fff;
+    border-radius: 4px;
+    text-align: center;
+    padding: 15px;
+    top: 41%;
+    left: 43%;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 22px;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+  }
+  .baner-left{
+    left: 12px;
+    top: 47%;
+    border-radius: 50%;
+    background-color: #fff;
+    width: 40px;
+    height: 40px;
+  }
 }
 @media (min-width: 1400px) {
+  .image-baner-1{
+    width: 630px;
+  }
+  .footer-all-thing2 {
+    margin-right: -77px;
+  }
+  .main-img{
+    width: 650px;
+    height: 546px;
+  }
+  .woman{
+    width: 280px;
+    height: 230px;
+  }
+  .man{
+    width: 300px;
+    height: 230px;
+  }
+  .accory{
+    width: 632px;
+    height: 289px;
+  }
+  .image-baner{
+    margin-left: 13px;
+  }
+  .product-box-price-diffrent {
+    margin-left: -44px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 13px;
+    text-decoration-line: line-through;
+    color: $dark_color;
+    opacity: 0.4;
+  }
+  .baner-center {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 289px;
+    height: 100px;
+    left: 28%;
+    border-radius: 4px;
+    background-color: #fff;
+    top: 39%;
+  }
+  .main-baner-title3 {
+    top: 45%;
+    left: 39%;
+    width: 166px;
+    height: 48px;
+    background-color: #fff;
+    border-radius: 4px;
+    text-align: center;
+    padding: 15px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 22px;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+  }
+  .main-baner-title {
+    top: 37%;
+    width: 118px;
+    left: 43%;
+    height: 48px;
+    background-color: #fff;
+    border-radius: 4px;
+    text-align: center;
+    padding: 15px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 22px;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+  }
+  .main-baner-title:hover {
+    width: 133px;
+    height: 60px;
+    top: 35%;
+    left: 42%;
+    padding: 21px;
+    animation: fade 1s;
+  }
+  @keyframes fade {
+    from {
+      opacity: 0.8;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+  .about-explan-hover {
+    width: 316px;
+    height: 200px;
+    background-color: #ffffff;
+    left: 50px;
+    top: 187px;
+  }
+  .about-explan {
+    width: 315px;
+    height: 126px;
+    background-color: #ffffff;
+    left: 11.1%;
+    top: 80.33%;
+    bottom: -15.2%;
+    margin-bottom: 44px;
+  }
+  .about-explan-img {
+    width: 420px;
+  }
   .Polygon {
     position: absolute;
-    top: -39px;
+    top: -32px;
     left: 34.5%;
   }
   .item-megamenu {
@@ -30,15 +256,101 @@
     height: 323px;
     width: 634px;
   }
-  .main-img {
-    width: 650px;
+  .baner-center2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 293px;
+    height: 71px;
+    left: 23%;
+    border-radius: 4px;
+    background-color: #fff;
+    top: 40%;
+  }
+  .baner-center3 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 293px;
+    height: 71px;
+    left: 31%;
+    border-radius: 4px;
+    background-color: #fff;
+    top: 37%;
+  }
+  .img-siza {
+    width: 300px;
+    height: 369px;
+  }
+  .product-box-hover {
+    width: 300px;
+    height: 250px;
+    background-color: #fff;
+    left: 12px;
+    bottom: 2px;
+  }
+  .product-box {
+    margin-top: 60px;
+    height: 400px;
+  }
+  .product-box-hover-allsize {
+    width: 112px;
+    height: 30px;
+    display: flex;
+  }
+  .button-mg {
+    margin-bottom: 96px;
   }
 }
 @media (max-width: 575.98px) {
+  .brand{
+    margin-left: 7px;
+  }
+  .shop-basket-size {
+    left: 50%;
+    transform: translate(-50%);
+  }
+  .menuhamburger{
+    margin-right: 7px;
+  }
+  .navbar-collapse{
+    flex-basis: 98% !important;
+  }
+  .shopping-cart {
+    width: 100%;
+    position: fixed;
+    top: 0;
+    right: 0;
+    z-index: 999;
+    display: none;
+  }
+  .sec1-shopping-card {
+    margin-top: 12px;
+    margin-left: auto;
+    margin-right: auto;
+    border-bottom: 2px solid #e6e6e6;
+    width: 352px;
+  }
+  .sec2-shopping-card {
+    margin-top: 12px;
+    margin-left: auto;
+    margin-right: auto;
+    border-bottom: 2px solid #e6e6e6;
+    width: 352px;
+  }
 }
 @media (max-width: 767.98px) {
+
 }
 @media (max-width: 991.98px) {
+  .button-menu{
+    display: block;
+  }
+  .soical-madia{
+    margin-top: 8px;
+  }
 }
 @media (max-width: 1199.98px) {
   .Polygon {
@@ -47,30 +359,215 @@
     left: 28.5%;
   }
 }
-@media only screen and (min-width: 1200px) and (max-width: 1400px) {
-  .Polygon {
-    position: absolute;
-    top: -39px;
-    left: 32%;
-  }
-}
 @media (max-width: 1399.98px) {
-  .item-megamenu {
-    height: 7vh;
+  @keyframes fade {
+    from {
+      opacity: 0.8;
+    }
+    to {
+      opacity: 1;
+    }
   }
+  .about-explan-hover {
+    width: 302px;
+    height: 200px;
+    background-color: #ffffff;
+    left: 27px;
+    top: 160px;
+    bottom: 0;
+  }
+  .about-explan {
+    width: 302px;
+    height: 126px;
+    background-color: #ffffff;
+    left: 6.86%;
+    top: 80.33%;
+    bottom: -15.2%;
+    margin-bottom: 44px;
+  }
+
   .card-list {
     margin-right: -70px;
-    width: 44vh;
+    width: 278px;
   }
   .size {
-    width: 85vh;
-  }
-  .main-img {
-    width: 563px;
+    width: 538px;
   }
   .main-baner-img {
     margin-left: 30px;
     height: 281px;
     width: 540px;
+  }
+  .Introduction-img {
+    width: 570px;
+    height: 260px;
+  }
+  .baner-center2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 293px;
+    height: 71px;
+    left: 21%;
+    border-radius: 4px;
+    background-color: #fff;
+    top: 37%;
+  }
+  .baner-center3 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 293px;
+    height: 71px;
+    left: 24%;
+    border-radius: 4px;
+    background-color: #fff;
+    top: 37%;
+  }
+  .img-siza {
+    width: 255px;
+    height: 318px;
+  }
+  .product-box-hover {
+    width: 255px;
+    height: 212px;
+    background-color: #fff;
+    left: 12px;
+    bottom: 2px;
+  }
+  .product-box {
+    margin-top: 48px;
+    height: 366px;
+  }
+  .product-box-hover-allsize {
+    width: 93px;
+    height: 30px;
+    display: flex;
+  }
+  .button-mg {
+    margin-bottom: 48px;
+  }
+  .about-explan-img {
+    width: 365px;
+  }
+
+  .main-baner-title3 {
+    top: 45%;
+    left: 36%;
+    width: 166px;
+    height: 48px;
+    background-color: #fff;
+    border-radius: 4px;
+    text-align: center;
+    padding: 15px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 22px;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+  }
+  .baner-center {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 289px;
+    height: 100px;
+    left: 24%;
+    border-radius: 4px;
+    background-color: #fff;
+    top: 45%;
+  }
+  .product-box-price-diffrent {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 13px;
+    text-decoration-line: line-through;
+    color: $dark_color;
+    opacity: 0.4;
+  }
+  .footer-all-thing2 {
+    margin-right: 12px;
+  }
+}
+@media only screen and (min-width: 992px) and (max-width: 1200px){
+  .baner-center {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 289px;
+    height: 100px;
+    left: 34%;
+    border-radius: 4px;
+    background-color: #fff;
+    top: 39%;
+  }
+  .baner-left{
+    left: 22%;
+    top: 45%;
+    border-radius: 50%;
+    background-color: #fff;
+    width: 40px;
+    height: 40px;
+  }
+  .baner-rigth{
+    right: 22%;
+    top: 45%;
+    border-radius: 50%;
+    background-color: #fff;
+    width: 40px;
+    height: 40px;
+  }
+  .main-baner-title:hover {
+    width: 140px;
+    height: 60px;
+    top: 35%;
+    left: 34.5%;
+    padding: 21px;
+    animation: fade 1s;
+  }
+  .main-baner-title {
+    top: 37%;
+    width: 118px;
+    left: 60%;
+    height: 48px;
+    background-color: #fff;
+    border-radius: 4px;
+    text-align: center;
+    padding: 15px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 22px;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+  }
+  .main-baner-title2 {
+    width: 86px;
+    height: 48px;
+    background-color: #fff;
+    border-radius: 4px;
+    text-align: center;
+    padding: 15px;
+    top: 39%;
+    left: 21%;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 22px;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+  }
+}
+@media only screen and (min-width: 1200px) and (max-width: 1399px) {
+  .Polygon {
+    position: absolute;
+    top: -31px;
+    left: 32%;
   }
 }

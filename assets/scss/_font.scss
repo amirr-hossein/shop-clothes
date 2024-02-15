@@ -3,6 +3,12 @@
   src: url("../css/font/Spartan-Regular.ttf");
 }
 @import "_color";
+$fontweght: 500;
+$fontweght2: 600;
+$fontsize: 14px;
+$fontsize2: 12px;
+$fontsize3: 11px;
+$linheight: 18px;
 body {
   font-family: "spartan";
 }
@@ -115,12 +121,298 @@ body {
   line-height: 16px;
   color: $dark_color;
 }
-.product-box-price-diffrent {
+.product-box-button input {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 13px;
+  line-height: 15px;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+}
+.product-box-hover-title {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 16px;
+  color: $dark_color;
+  opacity: 0.6;
+  margin-top: 16px;
+}
+.product-box-hover-price {
   font-style: normal;
   font-weight: 700;
+  font-size: 14px;
+  line-height: 16px;
+  color: $dark_color;
+}
+.title-baner-center2 {
+  font-style: normal;
+  font-weight: 600;
   font-size: 12px;
   line-height: 13px;
-  text-decoration-line: line-through;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
   color: $dark_color;
+  opacity: 0.6;
+  padding-bottom: 8px;
+}
+.title2-baner-center2 {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 18px;
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: $dark_color;
+}
+.about-title {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 22px;
+  line-height: 25px;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: $dark_color;
+  margin-top: 57px;
+  margin-bottom: 48px;
+}
+.about-title2 {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 13px;
+  text-align: right;
+  letter-spacing: 0.06em;
+  color: $dark_color;
+  opacity: 0.6;
+  margin-top: 57px;
+  margin-bottom: 48px;
+}
+.about-explan p:nth-child(1) {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 22px;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: #121212;
+  margin-left: 16px;
+  margin-top: 24px;
+}
+.about-explan p:nth-child(2) {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 22px;
+  color: #121212;
+  opacity: 0.8;
+  margin-left: 16px;
+  margin-top: 12px;
+}
+.about-explan2 p:nth-child(1) {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 22px;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: #121212;
+  margin-left: 16px;
+  margin-top: 24px;
+}
+.about-explan2 p:nth-child(2) {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 22px;
+  color: #121212;
+  opacity: 0.8;
+  margin-left: 16px;
+  margin-top: 12px;
+}
+.about-explan3 p:nth-child(1) {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 22px;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: #121212;
+  margin-left: 16px;
+  margin-top: 24px;
+}
+.about-explan3 p:nth-child(2) {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 22px;
+  color: #121212;
+  opacity: 0.8;
+  margin-left: 16px;
+  margin-top: 12px;
+}
+.about-explan-hover-date {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 13px;
+  color: #121212;
+  opacity: 0.6;
+  margin-left: 16px;
+}
+.about-explan-hover-data a {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 13px;
+  text-align: right;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+}
+.about-explan-hover-title {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 22px;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: #121212;
+  margin-left: 16px;
+  margin-top: 24px;
+}
+.about-explan-hover p:nth-child(2) {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 22px;
+  color: #121212;
+  opacity: 0.8;
+  margin-left: 16px;
+  margin-top: 12px;
+  margin-bottom: 24px;
+}
+.footer-down-title {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 11px;
+  line-height: 22px;
+  color: #121212;
+  opacity: 0.8;
+}
+.footer-down-link {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 11px;
+  line-height: 22px;
+  text-align: right;
+  text-decoration-line: underline;
+  color: #121212;
+  opacity: 0.8;
+}
+.product-box-hover-allsize-border {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 10px;
+  line-height: 11px;
+  text-align: center;
+  color: #121212;
+  opacity: 0.7;
+  width: 24px;
+  height: 24px;
+  background-color: $gr-white_color;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+  flex-direction: row;
+}
+.shopping-cart-title p {
+  padding: 13px 0 13px 24px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 22px;
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+.sec1-shopping-card-title {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 22px;
+  color: #121212;
+  opacity: 0.6;
+}
+.sec1-shopping-card-model {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 18px;
+  display: flex;
+  align-items: center;
+  color: #121212;
+  margin-right: 18.5px;
+}
+.login-card-title p {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 22px;
+  color: #121212;
+}
+.password-user-title {
+  font-weight: $fontweght2;
+  font-size: $fontsize2;
+  line-height: $linheight;
+  letter-spacing: 0.06em;
+  margin-left: 24px;
+}
+.forgot-password {
+  font-weight: $fontweght;
+  font-size: $fontsize3;
+  line-height: $linheight;
+  opacity: 0.6;
+  color: $dark_color;
+}
+.diffult-typography {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 22px;
+}
+.diffult-typography2 {
+  font-weight: $fontweght2;
+  font-size: 14px;
+  line-height: 22px;
+  letter-spacing: 0.06em;
+}
+.diffult-typography3 {
+  font-weight: 600;
+  font-size: 13px;
+  line-height: 34px;
+}
+.items-radio {
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 34px;
+  opacity: 0.8;
+}
+.search-container::placeholder {
+  font-weight: $fontweght;
+  font-size: 14px;
+  line-height: 18px;
   opacity: 0.4;
+  color: $dark_color;
+}
+.prise-card-searchbox {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 22px;
 }
