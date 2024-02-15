@@ -11,6 +11,8 @@
 # Technology
 - bootstrap
 - scss
+- font-awesome
+- jquery
 # Social Media
 <p>
   <a href="https://www.instagram.com/amirhsn.dev/">
